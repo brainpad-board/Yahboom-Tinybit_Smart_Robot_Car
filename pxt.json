@@ -1,18 +1,21 @@
 {
     "name": "yahboom-tinybit_smart_robot_car",
-    "version": "0.0.0",
+    "version": "0.0.2",
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.12"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "Tinybit.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "preferredEditor": "tsprj",
+    "installedVersion": "workspace:84a6acdb-a9da-4521-0b7d-dcc27908b25b"
 }
